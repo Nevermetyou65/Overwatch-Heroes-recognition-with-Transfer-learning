@@ -1,5 +1,5 @@
 # Overwatch-Heroes-recognition-with-Transfer-learning (with Xception)
-Hello again visitors!:blush: This repository is my 5th hobby project about Data sciecne and Machine learning.This time I built DNN (Deep Neural Network) to predict "Which overwatch hero is that".
+Hello again visitors!:blush: This repository is my 5th hobby project about Data science and Machine learning.This time I built CNN (Convolutional Neural Network) to predict "Which overwatch hero is that".
 
 ![alt text](https://www.mescript.com/upload/post/0/128/128-1-overwatch-review.webp)
 
@@ -7,7 +7,7 @@ Hello again visitors!:blush: This repository is my 5th hobby project about Data 
 For those of you who has not experience this overwatch, it is a MOBA-FPS online game by Blizzard Entertainment that features 32 playable character (heroes) at the time I writting this README.md
 
 ## About Dataset :file_folder:
-Originally, the inspriation of me doing this small (but took me for a week to finish) project is that recently I found this dataset published on Kaggle ([here](https://www.kaggle.com/renanmav/overwatch-heroes-recognition)). SO, I take this oppotunity to get familiar with **TensorFlow** (a machine learning and deep learning framework by google written in python) and other aspect of the pipeling such as input data pipeline, tf.data and transfer learning etc.
+Originally, the inspiation of me doing this small (but took me for a week to finish) project is that recently I found this dataset published on Kaggle ([here](https://www.kaggle.com/renanmav/overwatch-heroes-recognition)). SO, I take this oppotunity to get familiar with **TensorFlow** (a machine learning and deep learning framework by google written in python) and other aspect of the pipeling such as input data pipeline, tf.data and transfer learning etc.
 
 This dataset was published 2 years ago and that means it does not contain some of new heroes. Because of that, I decided to collect more images of all heroes (both existed and not) and experience myself in the aspect of **"quality of data"**
 I use these keywords to search for additionalimages
@@ -24,7 +24,7 @@ Because there are a smalle number of images in the dataset, It is a good time to
 
 ## The Result:sparkles:
 The process of my project is like this
-- build and check input image pipline
+- build and check input image pipeline
 - training (back to previous if not good enough)
 - fine tuning
 - test on random images on internet
